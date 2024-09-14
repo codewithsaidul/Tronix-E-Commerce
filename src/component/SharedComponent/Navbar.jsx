@@ -1,4 +1,4 @@
-import { Box, Link, Stack, Typography } from "@mui/material";
+
 import {
   Envelope,
   FacebookLogo,
@@ -8,115 +8,78 @@ import {
   TwitterLogo,
   User,
 } from "phosphor-react";
+// import Logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <Box sx={{ py: "10px" }}>
+    <div>
       {/* Top Navbar or Header */}
-      <Stack
-        direction={{ xs: "column", sm: "row" }}
-        alignItems={{ sx: "start", sm: "center" }}
-        justifyContent="space-between"
-        sx={{
-          px: { xs: "10px", sm: "30px", md: "60" },
-          margin: "auto",
-        //   visibility: {xs: "hidden", sm: "visi"},
-          gap: { xs: 2, md: 0 }, // Add spacing between items on small screens
-        }}
-      >
-        <Stack
-          direction="row"
-          alignItems="center"
-          sx={{
-            justifyContent: { xs: "center", md: "start" }, // Center on small screens
-          }}
-          spacing={2}
-        >
-          <Link
+      <div>
+        <div className="flex gap-2">
+          <a
             href="https://www.instagram.com"
             target="_blank"
             rel="noreferrer"
-            color="#A7A7A7"
-            sx={{ cursor: "pointer", fontSize: "20px" }}
+            className="text-xl text-orange-600"
           >
             <InstagramLogo size={24} />
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="https://www.facebook.com"
             target="_blank"
             rel="noreferrer"
-            color="#A7A7A7"
-            sx={{ cursor: "pointer", fontSize: "20px" }}
+            className="text-xl"
           >
             <FacebookLogo size={24} />
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="https://www.twitter.com"
             target="_blank"
             rel="noreferrer"
-            color="#A7A7A7"
-            sx={{ cursor: "pointer", fontSize: "20px" }}
+            className="text-xl"
           >
             <TwitterLogo size={24} />
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="https://www.linkedin.com"
             target="_blank"
             rel="noreferrer"
-            color="#A7A7A7"
-            sx={{ cursor: "pointer", fontSize: "20px" }}
+            className="text-xl"
           >
             <LinkedinLogo size={24} />
-          </Link>
-        </Stack>
+          </a>
+        </div>
 
-        <Stack direction={{xs: "column", sm: "row"}} alignItems="center" spacing={{xs: 1, sm: 2}}>
-          <Typography
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              gap: "5px",
-              color: "#383838",
-            }}
-            variant="subtitle2"
-          >
+        <div>
+          <p>
             <Phone color={"#F46B5B"} />
 
             <span>+12 345 6789 0</span>
-          </Typography>
-          <Typography
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              gap: "5px",
-              color: "#383838",
-            }}
-            variant="subtitle2"
-          >
+          </p>
+          <p >
             <Envelope color={"#F46B5B"} />
 
             <span>support@tronix.com</span>
-          </Typography>
-          <Typography
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              gap: "5px",
-              color: "#383838",
-            }}
-            variant="subtitle2"
-          >
+          </p>
+          <p>
             <User color={"#F46B5B"} />
 
             <span>Account</span>
-          </Typography>
-        </Stack>
-      </Stack>
+          </p>
+        </div>
+      </div>
       {/* Top Navbar or Header */}
-    </Box>
+
+      {/* <Stack>
+        <Stack direction="row" >
+          <img  src={Logo} alt={`${Logo} Logo Image`} />
+          <Typography>Tronix</Typography>
+        </Stack>
+      </Stack> */}
+    </div>
   );
 };
 
