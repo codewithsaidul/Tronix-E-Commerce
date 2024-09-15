@@ -167,7 +167,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search Here"
-              className="border-0 rounded-x-lg outline-0 px-6 py-1 bg-transparent"
+              className="text-sm text-gray border-0 rounded-x-lg outline-0 px-6 py-1 bg-transparent"
             />
             <button className="px-4 py-2 rounded-e-lg bg-primary text-lg text-white">
               <MagnifyingGlass />

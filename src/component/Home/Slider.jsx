@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-
+// Custome CSS File For Customize Swiper Pagination Button
 import "./index.css"
 
 // import required modules
@@ -18,7 +18,7 @@ const Slider = () => {
         pagination={true}
         loop={true}
         autoplay={{
-          delay: 100,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         modules={[Pagination]}

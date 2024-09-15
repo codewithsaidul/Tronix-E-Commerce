@@ -1,5 +1,4 @@
-// import PCCollection from "../../assets/images/pcGaming.png"
-// import CameraCollection from "../../assets/images/camera.png"
+
 
 import Slider from "./Slider";
 
