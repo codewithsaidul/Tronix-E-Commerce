@@ -2,6 +2,7 @@ import Banner from "../../component/Home/Banner"
 
 
 
+
 const Home = () => {
 
 

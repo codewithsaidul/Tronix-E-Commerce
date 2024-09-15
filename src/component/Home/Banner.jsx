@@ -1,22 +1,13 @@
 // import PCCollection from "../../assets/images/pcGaming.png"
 // import CameraCollection from "../../assets/images/camera.png"
 
+import Slider from "./Slider";
+
 const Banner = () => {
   return (
     <div className="grid grid-cols-12 gap-8">
       <div className="col-span-full">
-        <div className="bg-[url('/slider1.png')] bg-cover bg-center py-20 rounded-3xl px-6">
-          <div className="text-center">
-            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold font-title text-primary md:max-w-[500px] lg:max-w-[680px] mx-auto capitalize mb-2">
-              Better Devices for Better Life
-            </h1>
-            <p className="text-base sm:text-lg font-medium text-gray max-w-[680px] mx-auto">
-              Discover the latest in technology with our premium selection of
-              high-performance PCs, professional-grade cameras, and immersive
-              headphones.
-            </p>
-          </div>
-        </div>
+        <Slider />
       </div>
 
       {/* PC Collection */}

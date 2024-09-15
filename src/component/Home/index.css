@@ -1,0 +1,9 @@
+/* Customize Swiper pagination bullets */
+.swiper-pagination-bullet {
+    @apply bg-gray w-3 h-3 rounded-full mx-2;
+  }
+  
+  .swiper-pagination-bullet-active {
+    @apply bg-primary w-8 h-4 rounded-lg; /* Change active button color */
+  }
+  
