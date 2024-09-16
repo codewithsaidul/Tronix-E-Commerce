@@ -8,12 +8,12 @@ const Banner = () => {
      </div>
 
       {/* PC Collection */}
-      <div className="col-span-12 lg:col-span-6  bg-[url('/pcGaming.png')] bg-cover bg-center py-20 rounded-3xl px-10">
-        <div className="p-2 text-center text-[#383838] bg-[#FAFAFACC] rounded-lg">
-          <h2 className="text-4xl font-semibold font-title mb-3">
+      <div className="col-span-12 md:col-span-6  bg-[url('/pcGaming.png')] bg-cover bg-center py-20 rounded-3xl px-10">
+        <div className="px-2 py-5 text-center text-[#383838] bg-[#FAFAFACC] rounded-lg">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold font-title mb-3">
             PC Gaming Collection
           </h2>
-          <p className="text-base font-normal">
+          <p className="text-sm sm:text-base font-normal">
             Explore the ultimate PC gaming collection featuring high-performance
             setups, powerful graphics cards, and immersive accessories.
           </p>
@@ -21,12 +21,12 @@ const Banner = () => {
       </div>
 
       {/* Camera Collection */}
-      <div className="col-span-12 lg:col-span-6  bg-[url('/camera.png')] bg-cover bg-center py-20 rounded-3xl px-10">
+      <div className="col-span-12 md:col-span-6  bg-[url('/camera.png')] bg-cover bg-center py-20 rounded-3xl px-10">
         <div className="px-2 py-5 text-center text-[#383838] bg-[#FAFAFACC] rounded-lg">
-          <h2 className="text-4xl font-semibold font-title mb-3">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold font-title mb-3">
             Camera Collection
           </h2>
-          <p className="text-base font-normal">
+          <p className="text-sm sm:text-base font-normal">
             Discover our premium camera collection with cutting-edge technology,
             designed for both professionals and enthusiasts.
           </p>
