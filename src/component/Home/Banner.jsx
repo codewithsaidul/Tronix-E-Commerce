@@ -1,13 +1,11 @@
-
-
-import Slider from "./Slider";
+import Slider from "./Slider"
 
 const Banner = () => {
   return (
     <div className="grid grid-cols-12 gap-8">
-      <div className="col-span-full">
-        <Slider />
-      </div>
+     <div className="col-span-12">
+      <Slider />
+     </div>
 
       {/* PC Collection */}
       <div className="col-span-12 lg:col-span-6  bg-[url('/pcGaming.png')] bg-cover bg-center py-20 rounded-3xl px-10">
@@ -29,7 +27,8 @@ const Banner = () => {
             Camera Collection
           </h2>
           <p className="text-base font-normal">
-          Discover our premium camera collection with cutting-edge technology, designed for both professionals and enthusiasts.
+            Discover our premium camera collection with cutting-edge technology,
+            designed for both professionals and enthusiasts.
           </p>
         </div>
       </div>

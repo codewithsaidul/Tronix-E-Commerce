@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "./index.css"
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay  } from "swiper/modules";
 
 const Slider = () => {
   return (
@@ -21,7 +21,7 @@ const Slider = () => {
           delay: 2000,
           disableOnInteraction: false,
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide className="bg-[url('/slider1.png')] bg-cover bg-no-repeat object-cover bg-center py-20 rounded-3xl px-6">

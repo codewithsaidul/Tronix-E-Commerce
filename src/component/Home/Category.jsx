@@ -38,7 +38,7 @@ const Category = () => {
             </figure>
             {/* Category 6 */}
             <figure>
-                <img className="w-14 h-14 mx-auto" src={Other} alt="Computer & Laptop Image" />
+                <img className="w-14 h-14 mx-auto" src={Other} alt="gamepad Image" />
                 <p className="text-lg font-medium text-[#383838]">Other Categories</p>
             </figure>
         </div>
